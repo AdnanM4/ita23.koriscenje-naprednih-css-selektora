@@ -1,0 +1,25 @@
+[href*="google"] {
+    color: green;
+}
+
+[href$="eu/"] {
+    color: red;
+}
+
+#first-div > p::after{
+    content: " New";
+    color: yellow;
+
+}
+
+body > p:last-child:hover {
+    font-style: italic;
+}
+
+#second-div > p:nth-child(odd){
+    color: blue;
+}
+
+#second-div > p:nth-child(even) {
+    color: red;
+}
